@@ -14,33 +14,33 @@
         android:layout_marginTop="8dp"
         android:text="英語帳"
         android:textColor="@android:color/black"
-        android:textSize="20sp"
+        android:textSize="40sp"
         android:id="@+id/textView"/>
 
     <Button
         android:id="@+id/buttonWord"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="44dp"
         android:onClick="onClick"
         android:text="単語"
         android:textSize="20dp"
         tools:foregroundGravity="left"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="6dp"/>
+        tools:layout_editor_absoluteY="6dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/buttonPhrase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonWord"
+        android:layout_marginTop="45dp"
         android:onClick="onClick"
         android:text="フレーズ"
         android:textSize="20dp"
-        android:layout_marginTop="28dp"
-        android:layout_below="@+id/buttonWord"
+        tools:foregroundGravity="left"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
 

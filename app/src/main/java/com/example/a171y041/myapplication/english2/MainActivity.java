@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         if(v.getId() == R.id.buttonWord) {
             Intent intent = new Intent(MainActivity.this, WordActivity.class);
             startActivity(intent);
-        } else {
+        } else if (v.getId() == R.id.buttonPhrase){
             Intent intent = new Intent(MainActivity.this, PhraseActivity.class);
             startActivity(intent);
         }
